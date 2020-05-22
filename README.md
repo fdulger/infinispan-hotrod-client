@@ -29,3 +29,5 @@ ws://IP_ADDRESS:REST_API_PORT/events
 ```
 
 Create and modify some keys in registry and if everything goes well, all clients should get the updates.
+
+![Demo Page](https://drive.google.com/file/d/15l5qquJeqYR3k6PD26LrWn5x78KD5p_c/view?usp=sharing)
