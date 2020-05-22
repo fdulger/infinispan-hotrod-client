@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registry Manager</title>
+    <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="sockjs-0.3.4.js"></script>
+    <script type="text/javascript" src="stomp.js"></script>
+    <script type="text/javascript" src="registryManager.js"></script>
+</head>
+<body>
+    <table>
+        <tr><td>Key:</td><td><input id="key"/></td></tr>
+        <tr><td>Value:</td><td><input id="val"/></td></tr>
+        <tr><td></td><td><button onclick="post()">Save</button></td></tr>
+    </table>
+    <hr/>
+    <table>
+        <tr>
+            <td><button onclick="get()">Get Registry</button></td>
+            <td><textarea id="registry"></textarea></td>
+        </tr>
+    </table>
+    <hr/>
+    <table>
+        <tr><td>Event endpoint:</td><td><input id="eventEndpoint" value="ws://127.0.0.1:8080/events"/></td></tr>
+        <tr><td></td><td><button onclick="subscribe()">Subscribe</button></td></tr>
+    </table>
+    <div id="eventsArea"/>
+</body>
+</html>
