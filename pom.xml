@@ -21,7 +21,7 @@
         <dependency>
             <groupId>org.infinispan</groupId>
             <artifactId>infinispan-client-hotrod</artifactId>
-            <version>10.1.7.Final</version>
+            <version>14.0.25.Final</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
